@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    /*font-family: 'DM Sans', sans-serif;*/
+}
+
+.navbar{
+    padding: 20px 0;
+    h1{
+        font-size: 4.9rem;
+        margin-left: 20px;
+    }
+
+    a{
+        font-size: 1.6rem;
+    }
+}
+
+.section-home{
+    padding: 30px;
+
+    .container{
+        .first-div{
+            
+            h1{
+                font-size: 5rem;
+            }
+            .p-one{
+                font-size: 2rem;
+            }
+            .p-two{
+                font-size: 1.8rem;
+            }
+        }
+
+        .second-div{
+            li{
+                
+                font-size: 1.6rem;
+            }
+            .container-btn{
+               
+                .btn{
+
+                    font-size: 2rem;
+                }
+                
+            }
+            
+        }
+        
+    }
+}
+
+.section-cards{
+    padding: 30px;
+
+    .container-cards{
+        padding: 30px;
+        .card-body{
+            h5{
+                font-size: 2rem;
+            }
+             p{
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+
+
+.section-why{
+    padding: 30px;
+    
+    .container{
+        
+        .first-div{
+            
+            h1{
+                font-size: 5rem;
+            }
+            .p-one{
+                font-size: 2rem;
+            }
+            .p-two{
+                font-size: 1.8rem;
+            }
+        }
+
+        .second-div{
+            
+            .img-chat{
+                height: 500px;
+                width: 500px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+        
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    
+    h1{
+        font-size: 4.9rem;
+    }
+}
