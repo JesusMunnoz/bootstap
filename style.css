@@ -22,7 +22,11 @@ html{
 }
 
 .section-home{
+    height: 80vh;
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .container{
         .first-div{
@@ -39,6 +43,11 @@ html{
         }
 
         .second-div{
+            .list-btn{
+                display: flex;
+                flex-direction: column;
+                gap: 80px;
+            }
             li{
                 
                 font-size: 1.6rem;
@@ -58,7 +67,10 @@ html{
 }
 
 .section-cards{
+    height: 80vh;
     padding: 30px;
+
+    
 
     .container-cards{
         padding: 30px;
@@ -76,11 +88,51 @@ html{
 
 
 .section-why{
+    height: 80vh;
     padding: 30px;
     
     .container{
         
         .first-div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+            h1{
+                font-size: 5rem;
+            }
+            .p-one{
+                font-size: 2rem;
+            }
+            .p-two{
+                font-size: 1.8rem;
+            }
+        }
+
+        .second-div{
+            
+            .img-chat{
+                height: 500px;
+                width: 500px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+        
+    }
+}
+
+.section-found{
+    height: 80vh;
+    padding: 30px;
+    
+    .container{
+        
+        .first-div{
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
             
             h1{
                 font-size: 5rem;
