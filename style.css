@@ -9,6 +9,10 @@ html{
     /*font-family: 'DM Sans', sans-serif;*/
 }
 
+hr{
+    margin-bottom: 50px;
+}
+
 .navbar{
     padding: 20px 0;
     h1{
