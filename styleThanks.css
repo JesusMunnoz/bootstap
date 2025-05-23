@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    /*font-family: 'DM Sans', sans-serif;*/
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+  padding: 20px 0;
+  background-color: #0d6efd; /* por si quieres controlar el color sin Bootstrap */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-title {
+  font-size: 4.9rem;
+  margin-left: 20px;
+  margin-bottom: 0; /* evita que h1 cree espacio extra */
+}
+
+.navbar-collapse .nav-link {
+  font-size: 1.6rem;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-collapse .nav-link:hover {
+  text-decoration: underline;
+}
+
+.section-email {
+  padding: 30px;
+  flex: 1;
+}
+
+.section-email .container .first-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.section-email .container .first-div h1 {
+  font-size: 5rem;
+}
+
+.section-email .container .first-div .p-one {
+  font-size: 2rem;
+}
+
+.section-email .container .first-div .p-two {
+  font-size: 1.8rem;
+}
+
+.section-email .container .second-div .img-chat {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    
+    h1{
+        font-size: 4.9rem;
+    }
+}
