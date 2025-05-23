@@ -79,6 +79,7 @@ hr{
     .container-cards{
         padding: 30px;
         .card-body{
+            
             h5{
                 font-size: 2rem;
             }
@@ -131,6 +132,8 @@ hr{
     padding: 30px;
     
     .container{
+
+        
         
         .first-div{
 
@@ -160,6 +163,11 @@ hr{
         }
         
     }
+}
+
+.section-contact{
+    height: 70vh;
+    padding: 30px;
 }
 
 .footer{

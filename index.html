@@ -22,13 +22,19 @@
                 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Sobre el equipo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#project">Sobre el proyecto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#found">Donde encontrarnos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </li>
                 </ul>
                 
@@ -59,7 +65,7 @@
                     </ul>
                     
                     <div class="container-btn text-center mt-4 d-flex justify-content-center align-items-center" >
-                        <a href="#" class="btn btn-primary btn-lg">Contactar</a>
+                        <a href="#contact" class="btn btn-primary btn-lg">Contactar</a>
                     </div>
                 </div>
             </div>
@@ -131,7 +137,7 @@
 
     </section>
 
-    <section  class="section-found" id="project">
+    <section  class="section-found" id="found">
 
         <hr>
 
@@ -160,6 +166,54 @@
         </div>
 
     </section>
+
+    <section  class="section-contact" id="contact">
+
+        <hr>
+
+        <div class="container mt-5">
+
+            <h1>Contacta con nosotros</h1>
+
+            <form action="https://formsubmit.co/jesusmunozpost@gmail.com" method="POST" class="row g-3">
+                <input type="hidden" name="_captcha" value="false">
+                <input hidden name=_subject value="Alguien escribe desde ¿Hablamos? WOOOO!">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="lastName"class="form-label">Apellidos</label>
+                    <input type="text" name="lastName" class="form-control" id="lastName" required>
+                </div>
+
+                <div class="col-md-8">
+                    <label for="emailInfo"class="form-label">E-mail</label>
+                    <input type="email" name="emailInfo" class="form-control" id="emailInfo" required>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="phoneNumber"class="form-label">Teléfono</label>
+                    <input type="text" name="phoneNumber" class="form-control" id="phoneNumber" placeholder="+34 678 912 345">
+                </div>
+
+                <div class="col-md-12">
+                    <label for="comments" class="form-label"> Ruegos y preguntas</label>
+                    <textarea name="comments" id="comments" class="form-control" rows="6" required></textarea>
+                </div>
+
+                <div class="col-md-12"> 
+                    <button type="submit" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+
 
     <footer class="footer navbar-expand-lg bg-primary">
         <h1 class="nav-title text-white">¿Hablamos?</h1> 
