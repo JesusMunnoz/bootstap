@@ -1,23 +1,20 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html{
-    font-size: 62.5%;
-    /*font-family: 'DM Sans', sans-serif;*/
+  font-size: 62.5%;
+  /*font-family: 'DM Sans', sans-serif;*/
 }
 
 body{
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .navbar {
-  width: 100%;
   padding: 20px 0;
 }
 
@@ -83,13 +80,13 @@ body{
 }
 
 .footer{
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-    
-    h1{
-        font-size: 4.9rem;
-    }
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  
+  h1{
+    font-size: 4.9rem;
+  }
 }
 
 @media (max-width: 900px) {
@@ -153,4 +150,3 @@ body{
   }
 
 }
- 
