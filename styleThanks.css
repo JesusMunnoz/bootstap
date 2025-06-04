@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 html{
   font-size: 62.5%;
   /*font-family: 'DM Sans', sans-serif;*/
@@ -12,6 +16,7 @@ html{
 body{
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .navbar {
@@ -43,6 +48,11 @@ body{
 }
 
 .section-email {
+  flex: 1; /* Ocupará el espacio disponible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: auto;
   height: auto;
   padding: 5px;
@@ -73,8 +83,9 @@ body{
 }
 
 .section-email .container .second-div .img-chat {
-  height: 500px;
-  width: 500px;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -89,7 +100,40 @@ body{
   }
 }
 
-@media (max-width: 900px) {
+@media (width >= 470px) and (width <= 1200px) {
+
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar{
+    height: 100px;
+    width: 100%;
+  }
+  .navbar .navbar-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .navbar .navbar-container .nav-title{
+    font-size: 3.9rem;
+    margin: 0;
+  }
+  .navbar .navbar-container .nav-link{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
   
   .section-email .container .first-div h1{
     font-size: 4rem;
@@ -105,6 +149,12 @@ body{
 }
 
 @media (max-width: 470px) {
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+
   body{
     width: 100vw;
     height: 100vh;
@@ -112,14 +162,30 @@ body{
     flex-direction: column;
   }
   .navbar{
-    height: 15vh;
+    height: 100px;
+    width: 100%;
+    
   }
-  .navbar  h1{
+  .navbar .navbar-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .navbar .navbar-container .nav-title{
     font-size: 3.9rem;
+    margin: 0;
+  }
+  .navbar .navbar-container .nav-link{
+    margin: 0;
+    display: flex;
+    justify-content: center;
   }
   
   .footer{
-    height: 15vh;
+    height: 100px;
   }
   .footer h1{
     font-size: 3.9rem;
