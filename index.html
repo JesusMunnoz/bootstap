@@ -11,14 +11,13 @@
 <body class="bg-light">
 
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
-        <div class="container-fluid">
+        <div class="navbar-container container-fluid">
 
-            <div>
+            <div class="title-container text-center">
                 <h1 class="nav-title text-white">¿Hablamos?</h1>
             </div>
-            
-            
-            <div class="navbar-collapse" >
+
+            <div class="nav-list" >
                 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -74,6 +73,7 @@
         <hr>
 
         <div class="container-cards d-flex justify-content-evenly">
+            
             <section class="section-who" id="section-who">
                 <div class="card" style="width: 30rem;">
                     <img src="./assets/imgWho.png" class="card-img-top" alt="...">
@@ -89,6 +89,7 @@
             </section>
             
             <section class="section-what" id="section-what">
+
                 <div class="card" style="width: 30rem;">
                     <img src="./assets/imgWhat.png" class="card-img-top" alt="...">
                     <div class="card-body" style="height: 28rem">
@@ -100,71 +101,69 @@
                         </p>
                     </div>
                 </div>
+                
             </section>
         </div>
     </section>
 
-    <section  class="section-why" id="project">
-
+    <section class="section-why" id="project">
         <hr>
-
-        <div class="container py-5 d-flex flex-row justify-content-evenly gap-5">
-            <div class="first-div">
-                <h1 class="display-5 fw-bold text-center">¿De dónde nace este proyecto?</h1>
-            
-                <p class="p-one lead mt-4 d-flex flex-column ">
-                    Este proyecto nace de una necesidad real: muchas personas simplemente quieren hablar, pero no tienen con quién.
-                    <br>Aunque esta situación siempre ha existido, fue durante la pandemia del COVID-19 cuando se hizo más evidente.
-                    <br>El aislamiento dejó a muchas personas —especialmente a nuestros mayores— sin compañía, sin conversaciones, sin espacios donde expresarse.
-                    <br>Fue entonces cuando comprendimos que, a veces, lo único que se necesita es alguien que escuche.
-
-                    <br>Hay quienes, por naturaleza, son sociables y necesitan compartir cómo se sienten, expresar sus emociones o simplemente contar cómo les ha ido el día.
-                    <br>A veces, lo único que hace falta es alguien que escuche. Y eso no debería negársele a nadie.
-                </p>
+        
+        <div class="container py-5">
+            <div class=" row align-items-center gy-4">
                 
+                <div class="first-div col-lg-6">
+                    <h1 class="display-5 fw-bold text-center text-lg-start">¿De dónde nace este proyecto?</h1>
+                    
+                    <p class="lead mt-4">
+                        Este proyecto nace de una necesidad real: muchas personas simplemente quieren hablar, pero no tienen con quién.
+                        <br>Aunque esta situación siempre ha existido, fue durante la pandemia del COVID-19 cuando se hizo más evidente.
+                        <br>El aislamiento dejó a muchas personas, especialmente a nuestros mayores, sin compañía, sin conversaciones, sin espacios donde expresarse.
+                        <br>Fue entonces cuando comprendimos que, a veces, lo único que se necesita es alguien que escuche.
+                        <br><br>
+                        Hay quienes, por naturaleza, son sociables y necesitan compartir cómo se sienten, expresar sus emociones o simplemente contar cómo les ha ido el día.
+                        <br>A veces, lo único que hace falta es alguien que escuche. Y eso no debería negársele a nadie.
+                    </p>
+                </div>
+
+                <div class="col-lg-6 text-center">
+                    <img src="./assets/Chatcoffe.png" class="img-chat img-fluid rounded-circle" alt="personas conversando en un café">
+                </div>
             </div>
-
-            
-            
-            <figure class="second-div">
-                <img src="./assets/Chatcoffe.png" class="img-chat rounded-3" alt="people chating">
-            </figure>
         </div>
-
     </section>
 
-    <section  class="section-found" id="found">
-
+    <section class="section-found" id="found">
         <hr>
 
-        <div class="container py-5 d-flex flex-row justify-content-evenly gap-5">
+        <div class="container py-5">
+            <div class="row align-items-center gy-4 gx-4">
 
-            <figure class="second-div">
-                <img src="./assets/chatcall.png" class="img-chat rounded-3" alt="people chating">
-            </figure>
-
-            <div class="first-div">
-                <h1 class="display-5 fw-bold text-center">¿Dónde encontranos?</h1>
-            
-                <p class="p-one lead mt-4 d-flex flex-column ">
-                    Por el momento, no contamos con un espacio físico.
-                    <br>Nuestra idea es estar siempre disponibles para ti de forma remota, ya sea por teléfono o videollamada.
-                </p>
-
-                <p class="p-one lead mt-4 d-flex flex-column ">
-                    Queremos que puedas hablar con alguien sin importar dónde estés.
-                    <br>Y quién sabe, quizás en el futuro abramos un pequeño despacho para quienes prefieran un trato más personal y cercano.
-                </p>
+                <div class="col-lg-6 text-center">
+                    <img src="./assets/chatcall.png" class="img-chat img-fluid rounded-circle" alt="persona hablando por videollamada">
+                </div>
                 
-                <p class="p-two mt-4">¿Hablamos?</p>
+                <div class="first-div col-lg-6">
+                    <h1 class="display-5 fw-bold text-center text-lg-start">¿Dónde encontrarnos?</h1>
+                    <p class="lead mt-4">
+                        Por el momento, no contamos con un espacio físico.
+                        <br>Nuestra idea es estar siempre disponibles para ti de forma remota, ya sea por teléfono o videollamada.
+                    </p>
+                    
+                    <p class="lead mt-4">
+                        Queremos que puedas hablar con alguien sin importar dónde estés.
+                        <br>Y quién sabe, quizás en el futuro abramos un pequeño despacho para quienes prefieran un trato más personal y cercano.
+                    </p>
+                    
+                    <p class="first-div-p mt-4 fs-4">
+                        ¿Hablamos?
+                    </p>
+                </div>
             </div>
-
         </div>
-
     </section>
 
     <section  class="section-contact" id="contact">
-
         <hr>
 
         <div class="container mt-5">
@@ -213,7 +212,7 @@
 
 
     <footer class="footer navbar-expand-lg bg-primary">
-        <h1 class="nav-title text-white">¿Hablamos? </h1> <p class="text-white">&reg</p> 
+        <h1 class="nav-title text-white">¿Hablamos? </h1> <p class="text-white">&reg 2025</p> 
     </footer>
 
 </body>
